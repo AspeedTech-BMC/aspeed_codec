@@ -1,4 +1,4 @@
-# aspeed_jpeg
+# aspeed_codec
 A javascript decoder which supports aspeed jpeg.
 The pure javascript(lib/decoder_js.js) and webassembly(lib/decoder_wasm.*) implemenattions are both included. webassembly one will be used if possbile.
 
