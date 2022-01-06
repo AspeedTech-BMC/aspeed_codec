@@ -1,0 +1,28 @@
+{
+  "name": "aspeed_codec",
+  "version": "1.0.0",
+  "description": "A javascript decoder which supports aspeed jpeg.",
+  "main": "lib/decoder.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:AspeedTech-BMC/aspeed_codec.git"
+  },
+  "keywords": [
+    "aspeed",
+    "jpeg",
+    "jpg",
+    "decoder",
+    "webassembly",
+    "wasm",
+    "javascript",
+    "js"
+  ],
+  "author": "AspeedTech-BMC (https://github.com/AspeedTech-BMC)",
+  "license": "GPL-3.0-or-later"
+}
