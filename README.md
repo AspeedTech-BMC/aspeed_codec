@@ -42,6 +42,13 @@ let outbuf = decode(
       buffer: data
 );
 ```
+* frame: sequence number of the aspeed jpeg frame, which should continuous increase.
+* mode420: 1 for 420, and 0 for 444
+* selector: [0~11], the quality of the compressed data which should be the same with the one that video engine used.
+* advance_selector: [0~11], the quality of pass-2 compressed data which should be the same with the one that video engine used.
+* width: width of the aspeed jpeg
+* height: height of the aspeed jpeg
+* buffer: the data of the aspeed video engine, which includes aspeed jpeg header and aspeed jpeg data.
 
 # Data format
 
